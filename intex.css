@@ -1,0 +1,190 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    height: 50vh;
+    position: fixed;
+    padding: 0px 100px;
+    line-height: 100px;
+
+
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    letter-spacing: 1px;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+nav ul {
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0px 20px;
+    color: white;
+    font-weight: bold;
+
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    background-image: url(Awesome.jpg);
+    background-size: cover;
+    background-position: center;
+    position: center;
+}
+
+.mid0 {
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: -30px 200px 0px;
+    background-color: rgb(253, 253, 253);
+}
+
+.mid1 {
+    display: flex;
+    margin-bottom: 40px;
+    font-size: 1.5pc;
+    padding-left: 150px;
+
+}
+
+.mid {
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 110px;
+    border-radius: 5px;
+}
+
+#ht1 {
+    border: 2px solid black;
+    margin-right: 20px;
+    padding: 5px 30px;
+    color: white;
+    background-color: rgb(2, 2, 32);
+
+}
+
+.hp1 {
+    border: 2px solid black;
+    margin-left: 40px;
+    padding: 5px 30px;
+    color: white;
+    background-color: rgb(155, 7, 76);
+}
+
+#ct1 {
+    margin-left: 10px;
+    padding: 10px;
+}
+
+#date {
+    margin-left: 10px;
+    padding: 10px;
+}
+
+#ct2 {
+    margin-left: 10px;
+    padding: 10px;
+}
+
+#ct3 {
+    margin-left: 10px;
+}
+
+.menu2 {
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(40, 24, 66);
+}
+
+.maindiv {
+    width: 70%;
+    height: 600px;
+    left: 50%;
+    top: 175%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-image: url("jumbo.jpg");
+    background-size: cover;
+    box-shadow: 1px 2px 10px rgb(184, 58, 58);
+    animation: slider 19s infinite linear;
+}
+
+@keyframes slider {
+    0% {
+        background-image: url("kargil.jpg");
+    }
+
+    35% {
+        background-image: url("ladakh4.jpg");
+    }
+
+    75% {
+        background-image: url("leh1.jpg");
+    }
+}
+
+.pack {
+    margin-top: 650px;
+    border: 2px solid black;
+    margin-left: 600px;
+    margin-right: 600px;
+    border-radius: 5px;
+}
+
+.HEAD3 {
+    font-size: 30px;
+    font: bold;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+
+}
+
+.box {
+    height: 250px;
+    background-color: grey;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+
+
+.box5 {
+    width: 280px;
+    height: 200px;
+    display: flex;
+    border: 20px;
+    background-color: rgba(212, 212, 212, 0.281);
+    margin-top: 25px;
+   
+}
+
+img {
+    width: 280px;
+}
+.HEAD4{
+    text-align: center;   
+    font-size: 20px; 
+     margin: 40px;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+}
